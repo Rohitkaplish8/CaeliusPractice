@@ -1,0 +1,162 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+/*
+.bgimage
+{
+	background-image: url('milkyway.jpeg');
+	background-size:100%;
+	height: auto;
+}
+*/
+.bgimage
+{
+	background-image: url('milkyway.jpeg');
+	background-size:100% 100%;
+  width: 100%;
+  height: 100vh;
+}
+
+.menu
+{
+	width: 100%;
+	height: 80px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu
+{
+	float: left;
+	width: 25%;
+	line-height: 80px
+}
+
+.leftmenu h4
+{
+    padding-left: 60px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.rightmenu
+{
+
+	width: 75%;
+	float: right;
+	color: #FFFFFF;
+}
+
+.rightmenu ul
+{
+margin-left: 240px;
+}
+
+.rightmenu ul li
+{
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 80px;
+	text-transform: uppercase;
+	margin-left: 40px;
+}
+
+#select
+{
+	color: orange;
+}
+
+.rightmenu ul li:hover
+{
+ color: orange;
+}
+
+
+.text
+{
+	width: 100%;
+   margin-top: 185px;
+   text-transform:uppercase;
+   text-align: center;
+       color: white;
+
+}
+
+
+.text h4
+{
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+    
+ }
+
+ .text h1
+ {
+ 	font-size: 40px;
+ 	margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700px;
+	font-family: 'Montserrat', sans-serif;
+ }
+ 
+ #buttonone
+ {
+ 	background-color: white;
+ 	border:none;
+ 	font-size: 12px;
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ 	width: 140px;
+ 	line-height: 40px;
+ 	font-family: 'Montserrat', sans-serif;
+ 	margin-top: 25px;
+ }
+
+ #buttontwo
+ {
+background-color: transparent;
+ 	font-size: 12px;
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ 	width: 140px;
+ 	color: white;
+ 	line-height: 40px;
+ 	font-family: 'Montserrat', sans-serif;
+ 	margin-top: 25px;
+ 	border: 3px solid white;
+
+ }
+
+
+
+
+@media(max-width: 768px)
+{
+.menu
+	{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+.menu leftmenu
+{
+float: none;
+		text-align: center;
+		width: 100%;
+}
+
+.menu rightmenu	
+{
+float: none;
+		text-align: center;
+		width: 100%;
+}
+
+}
+
